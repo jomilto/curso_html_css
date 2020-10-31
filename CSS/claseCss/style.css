@@ -1,0 +1,16 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* class */
+
+.parrafo {
+    color: blue;
+}
+
+/* id */
+
+#nuevo-parrafo {
+    color: yellow;
+    font-size: 24px;
+}

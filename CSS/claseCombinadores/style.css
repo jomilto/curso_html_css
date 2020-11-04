@@ -22,3 +22,9 @@ porque los p tienen un hermano h2 al mismo nivel */
 div > p {
     color: red;
 }
+
+/* descendiente */
+/* todas las etiquetas p que esten dentro de un div */
+div p {
+    color: red;
+}

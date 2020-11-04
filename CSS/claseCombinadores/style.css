@@ -1,0 +1,7 @@
+/* hermano cercano o adyacente */
+/* se lee:
+aplica color rojo a todos los parrafos
+que se encuentren cerca de un h2 */
+h2 + p {
+    color: red;
+}

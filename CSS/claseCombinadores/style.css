@@ -2,6 +2,15 @@
 /* se lee:
 aplica color rojo a todos los parrafos
 que se encuentren cerca de un h2 */
-h2 + p {
+
+/* h2 + p {
+    color: red;
+} */
+
+/* hermano general */
+/* todos los p que tengan un hermano general,
+se pintan de rojo
+porque los p tienen un hermano h2 al mismo nivel */
+h2 ~ p {
     color: red;
 }

@@ -1,0 +1,18 @@
+/* selector universal */
+/* se eliminan padding 
+y margins a todos los elementos
+y con border box se ajustan los 
+elementos al tamaño de la pantalla*/
+/* agregar esto siempre a todas las css */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid gray;
+    padding: 20px 35px;
+}

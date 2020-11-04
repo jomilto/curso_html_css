@@ -11,6 +11,14 @@ que se encuentren cerca de un h2 */
 /* todos los p que tengan un hermano general,
 se pintan de rojo
 porque los p tienen un hermano h2 al mismo nivel */
-h2 ~ p {
+
+/* h2 ~ p {
+    color: red;
+} */
+
+/* hijo directo*/
+/* la etiqueta p que sea hija de un div
+ aplica color rojo */
+div > p {
     color: red;
 }

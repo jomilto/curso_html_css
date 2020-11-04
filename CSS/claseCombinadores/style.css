@@ -19,9 +19,9 @@ porque los p tienen un hermano h2 al mismo nivel */
 /* hijo directo*/
 /* la etiqueta p que sea hija de un div
  aplica color rojo */
-div > p {
+/* div > p {
     color: red;
-}
+} */
 
 /* descendiente */
 /* todas las etiquetas p que esten dentro de un div */
